@@ -1,0 +1,40 @@
+p{
+	background-color: slategray;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	border-width: 2px;
+	border-color: slategray;
+	border-style: solid;
+}
+html{
+	background-color: #66FF99;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+body{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	border-width: 0,2em;
+	border-color: black;
+	border-style: solid;
+}
+footer{
+	font-size: 40px;
+	font-family: serif;
+	border-color: #443556;
+	background-color: green;
+}
+ul{
+	font-size: 20px;
+	font-family: verdana;
+	background-color: red;
+}
+h1{
+	font-size: 50px;
+	background-color: #E8DE68;
+	font-family: times;
+}
