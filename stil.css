@@ -26,8 +26,14 @@ ul{
 }
 h1{
 	font-size: 50px;
-	background-color: #E8DE68;
-	font-family: times;
+	background-color: slategray;
+	font-family: georgia;
+	border-width:; 
+	border-style:solid;
+	border-radius: 10px;
+	border-color: #999966;
+	margin: 15px;
+	text-align: center;
 }
 
 footer{
@@ -43,6 +49,7 @@ footer{
 	font-style: italic;
 	font-family: georgia;
 	font-size: 20px;
+	padding: 10px;
 
 
 }
