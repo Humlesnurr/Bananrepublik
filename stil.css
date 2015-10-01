@@ -9,9 +9,7 @@ body{
 	padding-right: 15%;
 	padding-top: 1%;
 	padding-bottom: 3%;
-	border-width: 0,2em;
-	border-color: lightgray;
-	border-style: solid;
+
 }
 footer{
 	font-size: 40px;
@@ -58,10 +56,26 @@ nav{
 
 }
 nav  .menuitem{
-	margin:-18px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 	float: left;
 	position: relative;
 	height: 25px;
 	text-align: center; 
 	width:80px;
+	border-style: solid;
+}
+.current:hover{
+	color: #ffffff;
+}
+.menuitem h3{
+	margin: 0px;
+}
+.current{
+	color: #ffff00;
+	text-decoration: underline;
+}
+.menuitem:hover{
+	color: #ffffff;
+	border-style: solid;
+	height: 75px;
 }
