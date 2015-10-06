@@ -56,26 +56,34 @@ nav{
 
 }
 nav  .menuitem{
-	margin:0px 0px 0px 0px;
+	margin:-3px 2px 0px 0px;
 	float: left;
 	position: relative;
 	height: 25px;
 	text-align: center; 
-	width:80px;
+	width:100px;
 	border-style: solid;
+	border-radius: 10px;
+	border-color: #999966;
 }
 .current:hover{
 	color: #ffffff;
 }
 .menuitem h3{
-	margin: 0px;
+	margin: 0px 0px 0px 0px;
+	padding-right:5px;
+	padding-left:5px; 
+	font-family: georgia;
+	font-size: 20px;
 }
 .current{
 	color: #ffff00;
 	text-decoration: underline;
+	
 }
 .menuitem:hover{
 	color: #ffffff;
 	border-style: solid;
-	height: 75px;
+	height: 25px;
+	background-color: #999966;
 }
