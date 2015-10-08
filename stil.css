@@ -4,8 +4,8 @@ html{
 	background-repeat: no-repeat;
 
 }
-body{
-	padding-left: 15%;
+body{		/*avsmalnad body låter en se bakgrunden*/
+	padding-left: 15%;	
 	padding-right: 15%;
 	padding-top: 1%;
 	padding-bottom: 3%;
@@ -28,7 +28,7 @@ h1{
 	font-family: "lucida grande", sans-serif;
 	color: #cc5700;
 	border-style: solid;
-	border-radius: 10px;
+	border-radius: 10pxf;
 	border-color: #999966;
 	margin: 15px;
 	text-align: center;
@@ -57,7 +57,7 @@ nav{
 	background-color: slategray;
 
 }
-nav  .menuitem{
+nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	margin:-3px 2px 0px -3px;
 	float: left;
 	position: relative;
@@ -82,11 +82,11 @@ nav  .menuitem{
 }
 .current{
 	color: #ffd800;
-	text-decoration: ;
+	text-decoration: ;	/*osäker på vilken/vilka sorts decoration som finns*/
 	
 }
 .menuitem:hover{
-	color: #cc5700;
+	color: #cc5700; /*tagit den orangea från bakgrunden och letat upp rgb*/
 	border-style: solid;
 	height: 25px;
 	background-color: #999966;
