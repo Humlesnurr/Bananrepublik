@@ -44,6 +44,13 @@ h1{
 	font-size: 20px;
 	padding: 10px;
 }
+.container h3{
+	font-family: "Comic sans MS";
+	font-size: 25px;
+	color: #ffd800;
+	font-style: normal;
+	text-decoration: underline;
+}
 
 nav{
 	height:25px;
