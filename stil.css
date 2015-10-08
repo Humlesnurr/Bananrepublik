@@ -9,13 +9,8 @@ body{		/*avsmalnad body låter en se bakgrunden*/
 	padding-right: 15%;
 	padding-top: 1%;
 	padding-bottom: 3%;
+	width: 66%;
 
-}
-footer{
-	font-size: 40px;
-	font-family: serif;
-	border-color: #443556;
-	background-color: green;
 }
 ul{
 	font-size: 20px;
@@ -28,12 +23,14 @@ h1{
 	font-family: "lucida grande", sans-serif;
 	color: #cc5700;
 	border-style: solid;
-	border-radius: 10pxf;
+	border-radius: 10px;
 	border-color: #999966;
 	margin: 15px;
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px; 
+	z-index: 9;
+	
 }
 
 .container{
@@ -86,10 +83,35 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	
 }
 .menuitem:hover{
-	color: #cc5700; /*tagit den orangea från bakgrunden och letat upp rgb*/
+	color: #cc5700; /*tagit den orangea färgen från bakgrunden och letat upp rgb*/
 	border-style: solid;
 	height: 25px;
-	background-color: #999966;
+	background-color: #47515b;
+	border-color: #ffffff;
 }
-.main{ /*Vill försöka att ge h1 en ribbon*/
+.mainribbon{ /*Vill försöka att ge h1 en ribbon*/
+
+
+}
+.link1{ /*Ska göra om länkarna på något sätt*/
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #999966;
+	background-color: #47515b;
+	font-family: "lucida grande", sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 6px;
+	color: #ffd800;
+	text-decoration: none;
+}
+.link1:hover{ /*förändring vid hover*/
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+	background-color: #47515b;
+	font-family: "lucida grande", sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+	color: #cc5700;
+	text-decoration: line-through;
 }
