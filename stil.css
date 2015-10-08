@@ -1,5 +1,5 @@
 html{
-	background-image: url(1372192866560.jpg);
+	background-image: url(1372192866560.jpg); /*föredrar en riktig bakgrund istället*/
 	background-position: absolute;
 	background-repeat: no-repeat;
 
@@ -19,17 +19,12 @@ ul{
 }
 h1{
 	font-size: 45px;
-	background-color: slategray;
+	margin:0px 0px 0px -25%;
 	font-family: "lucida grande", sans-serif;
 	color: #cc5700;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #999966;
-	margin: 15px;
+	
 	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px; 
-	z-index: 9;
+	
 	
 }
 
@@ -104,7 +99,23 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	background-color: #47515b;
 	border-color: #ffffff;
 }
+
+.main{
+	background-color: slategray;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #999966;
+	margin: 15px;
+
+
+}
 .mainribbon{ /*Vill försöka att ge h1 en ribbon*/
+	height:50px;
+	width:200px;
+	border:solid;
+	margin:auto;
+	border-color: green;
+
 
 
 }
