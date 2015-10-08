@@ -45,11 +45,19 @@ h1{
 	padding: 10px;
 }
 .container h3{
-	font-family: "Comic sans MS";
+	font-family: "lucida grande", sans-serif;
 	font-size: 25px;
 	color: #ffd800;
 	font-style: normal;
 	text-decoration: underline;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #999966;
+	background-color: #47515b;
+	margin: 0px 0px 0px 0px;
+	padding: 6px;
+	width: 100px;
+	text-align: center;
 }
 
 nav{
@@ -62,7 +70,7 @@ nav{
 
 }
 nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
-	margin:-3px 2px 0px -3px;
+	margin: -3px 6px 0px -3px;
 	float: left;
 	position: relative;
 	height: 25px;
