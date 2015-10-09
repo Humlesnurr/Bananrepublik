@@ -20,7 +20,10 @@ ul{
 	border-style: solid;
 	border-color: #999966;
 	font-style: normal;
-	font-family: "Comic sans MS", sans-serif;
+	font-family: "lucida grande", sans-serif;
+	color: #ffd800;
+	width: 100px;
+
 }
 h1{
 	font-size: 45px;
@@ -166,4 +169,14 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	padding: 5px;
 	color: #cc5700;
 	text-decoration: underline;
+}
+.image{
+	position: relative;
+	height: 550px;
+	width: 550px;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
