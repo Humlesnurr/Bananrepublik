@@ -15,15 +15,19 @@ body{		/*avsmalnad body låter en se bakgrunden*/
 ul{
 	font-size: 20px;
 	font-family: verdana;
-	background-color: red;
+	background-color: #47515b;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #999966;
+	font-style: normal;
+	font-family: "Comic sans MS", sans-serif;
 }
 h1{
 	font-size: 45px;
 	margin:0px 0px 0px -25%;
 	font-family: "lucida grande", sans-serif;
 	color: #cc5700;
-	
-	text-align: center;
+	text-shadow: 5px 5px 10px #000000;
 	
 	
 }
@@ -54,7 +58,21 @@ h1{
 	width: 100px;
 	text-align: center;
 }
-
+h2{
+	font-family: "lucida grande", sans-serif;
+	font-size: 20px;
+	color: #ffd800;
+	font-style: bold;
+	text-decoration: underline;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #999966;
+	background-color: #47515b;
+	margin: auto;
+	padding: 6px;
+	width: 600px;
+	text-align: center;	
+}
 nav{
 	height:25px;
 	border-color: #999966;
@@ -75,6 +93,10 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	border-radius: 10px;
 	border-color: #999966;
 	padding-right: 2px;
+	color: indigo;
+}
+.menuitem:visited{
+	background-color: #47515b;
 }
 .current:hover{
 	color: #cc5700;
@@ -90,33 +112,37 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 .current{
 	color: #ffd800;
 	text-decoration: ;	/*osäker på vilken/vilka sorts decoration som finns*/
-	
 }
 .menuitem:hover{
 	color: #cc5700; /*tagit den orangea färgen från bakgrunden och letat upp rgb*/
 	border-style: solid;
-	height: 25px;
+	height: 30px;
 	background-color: #47515b;
 	border-color: #ffffff;
+	text-align: center;
+	width: 110px;
 }
-
 .main{
 	background-color: slategray;
 	border-style: solid;
 	border-radius: 10px;
 	border-color: #999966;
 	margin: 15px;
+	z-index: 100;
+	text-align: center;
 
 
 }
-.mainribbon{ /*Vill försöka att ge h1 en ribbon*/
+.mainribbon{ /*Vill försöka att ge h1 en ribbon*/ /*Misslyckas totalt*/ 
 	height:50px;
-	width:200px;
+	width:400px;
 	border:solid;
-	margin:auto;
-	border-color: green;
-
-
+	margin: auto;
+	border-color: #999966;
+	background-color: slategray;
+	border-radius: 10px;
+	z-index: 99; 
+	text-align: center;	/*VARFÖR GÖR DEN SÅ HÄR MOT MIG*/
 
 }
 .link1{ /*Ska göra om länkarna på något sätt*/
@@ -135,9 +161,9 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	border-style: solid;
 	border-color: #ffffff;
 	background-color: #47515b;
-	font-family: "lucida grande", sans-serif;
+	font-family: "Comic sans MS", sans-serif;
 	margin: 0px 0px 0px 0px;
 	padding: 5px;
 	color: #cc5700;
-	text-decoration: line-through;
+	text-decoration: underline;
 }
