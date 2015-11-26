@@ -145,7 +145,7 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	background-color: slategray;
 	border-radius: 10px;
 	z-index: 99; 
-	text-align: center;	/*VARFÖR GÖR DEN SÅ HÄR MOT MIG*/
+	text-align: center;	/*VARFÖR GÖR DEN SÅ HÄR MOT MIG*/ /*ÅT HELVETE MED DEN HÄR SAKEN OM DEN INTE FUNKAR SNART*/
 
 }
 .link1{ /*Ska göra om länkarna på något sätt*/
@@ -179,4 +179,11 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+video{
+	width:34%;
+	min-width: 300px;
+	height:200px;
+	margin:0px 33% 0px 33%;
+	position: relative;
 }
