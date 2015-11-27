@@ -1,7 +1,7 @@
 html{
 	background-image: url(1372192866560.jpg); /*föredrar en riktig bakgrund istället*/
 	background-position: absolute;
-	background-repeat: no-repeat;
+	background-repeat: vertical;
 
 }
 body{		/*avsmalnad body låter en se bakgrunden*/
@@ -147,6 +147,7 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	z-index: 99; 
 	text-align: center;	/*VARFÖR GÖR DEN SÅ HÄR MOT MIG*/ /*ÅT HELVETE MED DEN HÄR SAKEN OM DEN INTE FUNKAR SNART*/
 
+
 }
 .link1{ /*Ska göra om länkarna på något sätt*/
 	border-radius: 10px;
@@ -164,7 +165,7 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	border-style: solid;
 	border-color: #ffffff;
 	background-color: #47515b;
-	font-family: "Comic sans MS", sans-serif;
+	font-family: "Comic sans MS", sans-serif; /*Comic sans MS bara för att jävlas*/
 	margin: 0px 0px 0px 0px;
 	padding: 5px;
 	color: #cc5700;
@@ -179,8 +180,9 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	margin-bottom: 10px;
 }
-video{
+video{	/*Wooh, rörliga bilder som låter.*/
 	width:34%;
 	min-width: 300px;
 	height:200px;
