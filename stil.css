@@ -2,7 +2,6 @@ html{
 	background-image: url(1372192866560.jpg); /*föredrar en riktig bakgrund istället*/
 	background-position: absolute;
 	background-repeat: vertical;
-
 }
 body{		/*avsmalnad body låter en se bakgrunden*/
 	padding-left: 15%;	
@@ -10,7 +9,6 @@ body{		/*avsmalnad body låter en se bakgrunden*/
 	padding-top: 1%;
 	padding-bottom: 3%;
 	width: 66%;
-
 }
 ul{
 	font-size: 20px;
@@ -23,18 +21,14 @@ ul{
 	font-family: "lucida grande", sans-serif;
 	color: #ffd800;
 	width: 100px;
-
 }
 h1{
 	font-size: 45px;
-	margin:0px 0px 0px -25%;
-	font-family: "lucida grande", sans-serif;
+	margin:0px 0px 0px 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: #cc5700;
 	text-shadow: 5px 5px 10px #000000;
-	
-	
 }
-
 .container{
 	background-color: slategray;
 	border-style: solid;
@@ -133,21 +127,6 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	margin: 15px;
 	z-index: 100;
 	text-align: center;
-
-
-}
-.mainribbon{ /*Vill försöka att ge h1 en ribbon*/ /*Misslyckas totalt*/ 
-	height:50px;
-	width:400px;
-	border:solid;
-	margin: auto;
-	border-color: #999966;
-	background-color: slategray;
-	border-radius: 10px;
-	z-index: 99; 
-	text-align: center;	/*VARFÖR GÖR DEN SÅ HÄR MOT MIG*/ /*ÅT HELVETE MED DEN HÄR SAKEN OM DEN INTE FUNKAR SNART*/
-
-
 }
 .link1{ /*Ska göra om länkarna på något sätt*/
 	border-radius: 10px;
