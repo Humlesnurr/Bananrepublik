@@ -203,7 +203,7 @@ video{	/*Wooh, rörliga bilder som låter.*/
 	padding: 0px 5px 0px 5px;
 	width: 50%;
 }
-.container-right:hover{
+.container-right:hover{ /*NEEEEEEEEEEEEEEEEEEEEEEEJ*/
 	background-color: white;
 	border-style: solid;
 	border-color: #999966;
