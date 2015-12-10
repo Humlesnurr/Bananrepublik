@@ -168,3 +168,56 @@ video{	/*Wooh, rörliga bilder som låter.*/
 	margin:0px 33% 0px 33%;
 	position: relative;
 }
+.container-left{
+	background-color: lightgray;
+	border-style: solid;
+	border-color: #999966;
+	border-radius: 10px;
+	margin: 5px;
+	font-style: italic;
+	font-family: "Open Sans" sans-serif;
+	font-size: 20px;
+	padding: 0px 5px 0px 5px;
+	width: 50%;
+}
+.container-left:hover{
+	background-color: white;
+	border-style: solid;
+	border-color: #999966;
+	border-radius: 10px;
+	margin: 5px;
+	font-style: italic;
+	font-family: "Open Sans" sans-serif;
+	font-size: 20px;
+	width: 50%;
+}
+.container-right{
+	background-color: lightgray;
+	border-style: solid;
+	border-color: #999966;
+	border-radius: 10px;
+	margin: 5px;
+	font-style: italic;
+	font-family: "Open Sans" sans-serif;
+	font-size: 20px;
+	padding: 0px 5px 0px 5px;
+	width: 50%;
+}
+.container-right:hover{
+	background-color: white;
+	border-style: solid;
+	border-color: #999966;
+	border-radius: 10px;
+	margin: 5px;
+	font-style: italic;
+	font-family: "Open Sans" sans-serif;
+	font-size: 20px;
+	width: 50%;
+}
+.container-alt{
+	background-color: slategray;
+	border-style: solid;
+	border-color: #999966;
+	border-radius: 10px;
+	margin: 15px;
+}
