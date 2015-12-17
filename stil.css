@@ -1,7 +1,8 @@
 html{
-	background-image: url(1372192866560.jpg); /*föredrar en riktig bakgrund istället*/
-	background-position: absolute;
+	background-image: url(warframe-minimalist.jpg); /*föredrar en riktig bakgrund istället*/
+	background-position: relative;
 	background-repeat: vertical;
+	background-position: auto;
 }
 body{		/*avsmalnad body låter en se bakgrunden*/
 	padding-left: 15%;	
