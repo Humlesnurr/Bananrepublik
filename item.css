@@ -1,0 +1,40 @@
+.mainitem{
+	color: #cc5700; 
+	border-style: solid;
+	border-radius: 10px;
+	background-color: #47515b;
+	border-color: #ffffff;
+	text-align: center;
+	width: 150px;
+	margin: 15px;
+}
+.mainitem:hover{
+	border-style: solid;
+	border-radius: 10px;
+	border-color: black;
+	background-color: white;
+
+}
+.itemcenter{
+	margin: 4.5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: black;
+	height: 50px;
+	background-color: white;
+
+}
+.itemcenter:hover{
+	color: #cc5700; 
+	border-style: solid;
+	border-radius: 10px;
+	background-color: #47515b;
+	border-color: #ffffff;
+	text-align: center;
+}
+.itemicon{
+
+}
+.itemtext{
+
+}
