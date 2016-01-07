@@ -2,11 +2,13 @@
 	color: #cc5700; 
 	border-style: solid;
 	border-radius: 10px;
-	background-color: #47515b;
-	border-color: #ffffff;
+	background-color: white;
+	border-color: black;
 	text-align: center;
 	width: 150px;
 	margin: 15px;
+	float: left;
+	height: 200px;
 }
 .mainitem:hover{
 	border-style: solid;
@@ -33,8 +35,25 @@
 	text-align: center;
 }
 .itemicon{
-
+	width: 100px;
+	height: 120px;
 }
 .itemtext{
-
+	font-family: "open sans condensed", sans-serif;
+	color: #002D3A;
+	border-top-style: solid;
+	border-top-color: black;
+	font-size: 20px; 
+	padding: 0px 0px 0px 0px;
+	background-color: ;
+	height: 50px;
+}
+.para{
+	margin-top:-1px;
+}
+.itemlink{
+	background-color: #lightgray;
+	font-family: "open sans Condensed", sans-serif;
+	color: #002D3A;
+	text-decoration: none;
 }

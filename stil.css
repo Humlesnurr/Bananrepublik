@@ -14,58 +14,57 @@ body{		/*avsmalnad body låter en se bakgrunden*/
 ul{
 	font-size: 20px;
 	font-family: verdana;
-	background-color: #47515b;
+	background-color: white;
 	border-radius: 10px;
 	border-style: solid;
-	border-color: #999966;
+	border-color: #848484;
 	font-style: normal;
-	font-family: "lucida grande", sans-serif;
-	color: #ffd800;
+	font-family: "open Sans Condensed", sans-serif;
+	color: #002D3A;
 	width: 100px;
 }
 h1{
 	font-size: 45px;
 	margin:0px 0px 0px 0px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #cc5700;
-	text-shadow: 5px 5px 10px #000000;
+	color: #433C3C;
 }
 .container{
-	background-color: slategray;
+	background-color: white;
 	border-style: solid;
-	border-color: #999966;
+	border-color: #848484;
 	border-radius: 10px;
 	margin: 15px;
 	font-style: italic;
-	font-family: "lucida grande";
+	font-family: "open sans Condensed";
 	font-size: 20px;
 	padding: 10px;
 }
 .container h3{
-	font-family: "lucida grande", sans-serif;
+	font-family: "open sans Condensed", sans-serif;
 	font-size: 25px;
-	color: #ffd800;
+	color: #002D3A;
 	font-style: normal;
 	text-decoration: underline;
 	border-radius: 10px;
 	border-style: solid;
-	border-color: #999966;
-	background-color: #47515b;
+	border-color: #848484;
+	background-color: white;
 	margin: 0px 0px 0px 0px;
 	padding: 6px;
 	width: 100px;
 	text-align: center;
 }
 h2{
-	font-family: "lucida grande", sans-serif;
+	font-family: "open sans Condensed", sans-serif;
 	font-size: 20px;
-	color: #ffd800;
+	color: #002D3A;
 	font-style: bold;
 	text-decoration: underline;
 	border-radius: 10px;
 	border-style: solid;
-	border-color: #999966;
-	background-color: #47515b;
+	border-color: #848484;
+	background-color: white;
 	margin: auto;
 	padding: 6px;
 	width: 600px;
@@ -73,11 +72,11 @@ h2{
 }
 nav{
 	height:25px;
-	border-color: #999966;
+	border-color: #848484;
 	border-radius: 10px;
 	border-style: solid;
 	margin: 15px;
-	background-color: slategray;
+	background-color: white;
 
 }
 nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
@@ -89,15 +88,15 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	width:100px;
 	border-style: solid;
 	border-radius: 10px;
-	border-color: #999966;
+	border-color: #848484;
 	padding-right: 2px;
-	color: indigo;
+	color: #433C3C;
 }
 .menuitem:visited{
 	background-color: #47515b;
 }
 .current:hover{
-	color: #cc5700;
+	color: white;
 }
 .menuitem h3{
 	margin: 0px 0px 0px 0px;
@@ -108,23 +107,24 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	font-size: 20px;
 }
 .current{
-	color: #ffd800;
+	color: #002D3A;
 	text-decoration: ;	/*osäker på vilken/vilka sorts decoration som finns*/
+
 }
 .menuitem:hover{
-	color: #cc5700; /*tagit den orangea färgen från bakgrunden och letat upp rgb*/
+	color: white; /*tagit den orangea färgen från bakgrunden och letat upp rgb*/
 	border-style: solid;
 	height: 30px;
-	background-color: #47515b;
-	border-color: #ffffff;
+	background-color: lightgray;
+	border-color: black;
 	text-align: center;
 	width: 110px;
 }
 .main{
-	background-color: slategray;
+	background-color: white;
 	border-style: solid;
 	border-radius: 10px;
-	border-color: #999966;
+	border-color: #848484;
 	margin: 15px;
 	z-index: 100;
 	text-align: center;
@@ -132,24 +132,27 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 .link1{ /*Ska göra om länkarna på något sätt*/
 	border-radius: 10px;
 	border-style: solid;
-	border-color: #999966;
-	background-color: #47515b;
-	font-family: "lucida grande", sans-serif;
+	border-color: #848484;
+	background-color: #lightgray;
+	font-family: "open sans Condensed", sans-serif;
 	margin: 0px 0px 0px 0px;
 	padding: 6px;
-	color: #ffd800;
+	color: #002D3A;
 	text-decoration: none;
+	height: 15px;
+	width: 30px;
 }
 .link1:hover{ /*förändring vid hover*/
 	border-radius: 10px;
 	border-style: solid;
-	border-color: #ffffff;
-	background-color: #47515b;
-	font-family: "Comic sans MS", sans-serif; /*Comic sans MS bara för att jävlas*/
+	border-color: #002D3A;
+	background-color: lightgray;
+	font-family: "Open sans Condensed", sans-serif; 
 	margin: 0px 0px 0px 0px;
 	padding: 5px;
-	color: #cc5700;
-	text-decoration: underline;
+	color: black;
+	height: 20px;
+	width: 35px;
 }
 .image{
 	position: relative;
@@ -169,56 +172,15 @@ video{	/*Wooh, rörliga bilder som låter.*/
 	margin:0px 33% 0px 33%;
 	position: relative;
 }
-.container-left{
-	background-color: lightgray;
-	border-style: solid;
-	border-color: #999966;
-	border-radius: 10px;
-	margin: 5px;
-	font-style: italic;
-	font-family: "Open Sans" sans-serif;
-	font-size: 20px;
-	padding: 0px 5px 0px 5px;
-	width: 50%;
-}
-.container-left:hover{
+.container-sale{
 	background-color: white;
 	border-style: solid;
-	border-color: #999966;
-	border-radius: 10px;
-	margin: 5px;
-	font-style: italic;
-	font-family: "Open Sans" sans-serif;
-	font-size: 20px;
-	width: 50%;
-}
-.container-right{
-	background-color: lightgray;
-	border-style: solid;
-	border-color: #999966;
-	border-radius: 10px;
-	margin: 5px;
-	font-style: italic;
-	font-family: "Open Sans" sans-serif;
-	font-size: 20px;
-	padding: 0px 5px 0px 5px;
-	width: 50%;
-}
-.container-right:hover{ /*NEEEEEEEEEEEEEEEEEEEEEEEJ*/
-	background-color: white;
-	border-style: solid;
-	border-color: #999966;
-	border-radius: 10px;
-	margin: 5px;
-	font-style: italic;
-	font-family: "Open Sans" sans-serif;
-	font-size: 20px;
-	width: 50%;
-}
-.container-alt{
-	background-color: slategray;
-	border-style: solid;
-	border-color: #999966;
+	border-color: #848484;
 	border-radius: 10px;
 	margin: 15px;
+	font-style: italic;
+	font-family: "open sans Condensed";
+	font-size: 60px;
+	padding: 10px;
+	text-align: center;
 }
