@@ -72,11 +72,8 @@ h2{
 }
 nav{
 	height:25px;
-	border-color: #848484;
-	border-radius: 10px;
-	border-style: solid;
 	margin: 15px;
-	background-color: white;
+	background-color: ;
 
 }
 nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
@@ -86,9 +83,6 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	height: 25px;
 	text-align: center; 
 	width:100px;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #848484;
 	padding-right: 2px;
 	color: #433C3C;
 }
@@ -108,15 +102,10 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 }
 .current{
 	color: #002D3A;
-	text-decoration: ;	/*osäker på vilken/vilka sorts decoration som finns*/
-
 }
 .menuitem:hover{
 	color: white; /*tagit den orangea färgen från bakgrunden och letat upp rgb*/
-	border-style: solid;
-	height: 30px;
 	background-color: lightgray;
-	border-color: black;
 	text-align: center;
 	width: 110px;
 }
