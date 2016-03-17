@@ -173,7 +173,8 @@ video{	/*Wooh, rörliga bilder som låter.*/
 	padding: 10px;
 	text-align: center;
 }
-table .row{
+table{
 	background-color: white;
-
+	width: 800px;
+	margin: auto;
 }
