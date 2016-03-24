@@ -10,6 +10,7 @@ body{		/*avsmalnad body låter en se bakgrunden*/
 	padding-top: 1%;
 	padding-bottom: 3%;
 	width: 66%;
+	margin: 0px;
 }
 ul{
 	font-size: 20px;
@@ -161,20 +162,40 @@ video{	/*Wooh, rörliga bilder som låter.*/
 	margin:0px 33% 0px 33%;
 	position: relative;
 }
-.container-sale{
-	background-color: white;
-	border-style: solid;
-	border-color: #848484;
-	border-radius: 10px;
-	margin: 15px;
+#container-sale{
+	height: 100%;
+	width: 100%;
+	padding-top:20%;
+	text-align: center;
+	display:none;
+	position: fixed;
+	margin: -12% -15% 0px -15%;
+}
+#container-sale p{
 	font-style: italic;
 	font-family: "open sans Condensed";
-	font-size: 60px;
+	font-size: 60px;	
+	width: 400px;
+	height: 90px;
+	color: white;
 	padding: 10px;
-	text-align: center;
+
+	background-color: rgba(0,0,0,0.5);
+	margin: 0px auto;
+}
+.RowPointer{
+	cursor: pointer;
 }
 table{
 	background-color: white;
 	width: 800px;
 	margin: auto;
+	margin-bottom: 5px;
+}
+table p{
+	font-size: 35px;
+	font-family: "open Sans Condensed"	
+}
+table:hover{
+	background-color: #EBEBEB;
 }
