@@ -10,11 +10,21 @@
 	<script type="text/javascript" language="javascript">
 		function tack () {
 			document.getElementById('container-sale').style.display ="block";
+			pix = 250;
+			time = setInterval(function(){
+				pix -=4;
+							document.getElementById('container-sale').style.marginTop = pix + "px";
+					if(pix <= -200){
+						clearInterval(time);
+					}
+
+			},0.5);
 		}
 
 		function bort () {
 			document.getElementById('container-sale').style.display ="none";
 		}
+
 
 
 	</script>
@@ -31,19 +41,19 @@
 			</div></a>
 		
 			<a href="index2.html"> <div class="menuitem">
-				<h3> Bord </h3>
+				<h3> Container </h3>
 			</div></a>
 
 			<a href="index3.html"> <div class="menuitem">
-				<h3> Banan </h3>
+				<h3> Bilder </h3>
 			</div></a>
 
 			<a href="index4.html"> <div class="menuitem">
-				<h3> Toalett </h3>
+				<h3> Videos </h3>
 			</div></a>
 
 			<a href="#"> <div class="menuitem">
-				<h3 class="current"> Sak </h3>
+				<h3 class="current"> Shop </h3>
 			</div></a>
 		</nav>	
 

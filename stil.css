@@ -103,6 +103,7 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 }
 .current{
 	color: #002D3A;
+	text-decoration: underline;
 }
 .menuitem:hover{
 	color: white; /*tagit den orangea färgen från bakgrunden och letat upp rgb*/
@@ -169,7 +170,7 @@ video{	/*Wooh, rörliga bilder som låter.*/
 	text-align: center;
 	display:none;
 	position: fixed;
-	margin: -12% -15% 0px -15%;
+	margin: 250px -15% 0px -15%;
 }
 #container-sale p{
 	font-style: italic;
