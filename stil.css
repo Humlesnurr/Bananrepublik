@@ -196,3 +196,10 @@ table p{
 table:hover{
 	background-color: #EBEBEB;
 }
+#bees{
+	display: none;
+	height: 100%;
+	width:	100%;
+	float: left;
+	margin: auto;
+}

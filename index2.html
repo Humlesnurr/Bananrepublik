@@ -5,6 +5,22 @@
 	<title>Testsida</title>
 	<link rel="stylesheet" type="text/css" href="stil.css">
 	<link rel="shortcut icon" href="skull.png">
+	<script type="text/javascript" language="javascript">
+			function visa () {
+				document.getElementById('bees').style.display="block";
+
+			}
+			function hide () {
+				document.getElementById('bees').style.display="none";
+			}
+
+
+
+
+
+
+	</script>
+
 </head>
 <body>
 	<div class="main">
@@ -33,7 +49,11 @@
 				<h3> Shop </h3>
 			</div></a>
 		</nav>	
-	
+		
+		<div id="bees" onmousedown="hide()">
+			<img src="bees.png">	
+		</div>
+
 	<div class="container">
 		<h3>Kratta</h3>
 		<p>
@@ -45,7 +65,7 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 
-		<h2>
+		<h2 onmousedown="visa()">
 			Den femte dimensionen
 		</h2>
 
