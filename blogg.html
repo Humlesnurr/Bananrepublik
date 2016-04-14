@@ -12,13 +12,13 @@
 			document.getElementById('container-sale').style.display ="block";
 			pix = 250;
 			time = setInterval(function(){
-				pix -=4;
-							document.getElementById('container-sale').style.marginTop = pix + "px";
-					if(pix <= -200){
+				pix -=7;
+					document.getElementById('container-sale').style.marginTop = pix + "px";
+					if(pix <= -130){
 						clearInterval(time);
 					}
 
-			},0.5);
+			},1);
 		}
 
 		function bort () {

@@ -112,13 +112,9 @@ nav  .menuitem{		/*försökt få knapparna att åka isär mer*/
 	width: 110px;
 }
 .main{
-	background-color: white;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: #848484;
 	margin: 15px;
-	z-index: 100;
 	text-align: center;
+	border-bottom: solid #848484 2.5px;
 }
 .link1{ /*Ska göra om länkarna på något sätt*/
 	border-radius: 10px;
