@@ -200,6 +200,7 @@ table:hover{
 	display: none;
 	height: 100%;
 	width:	100%;
-	float: left;
 	margin: auto;
+	position: fixed;
+	
 }
